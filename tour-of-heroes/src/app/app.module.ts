@@ -5,14 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
-import { HeroComponent } from './hero/hero.component';
-import { MockHeroesComponent } from './mock-heroes/mock-heroes.component';
 import { HeroService } from './hero.service';
 import { DashboardComponent } from './dashboard/dashboard.component'
 import { HeroesComponent } from './heroes.component';
 import { RouterModule } from '@angular/router';
-import { AppRoutingModule } from './app-routing.module'
-  
+import { AppRoutingModule } from './app-routing.module';
+ 
 
 
 @NgModule({
@@ -26,8 +24,6 @@ import { AppRoutingModule } from './app-routing.module'
   declarations: [
     AppComponent,
     HeroDetailComponent,
-    HeroComponent,
-    MockHeroesComponent,
     DashboardComponent,
     HeroesComponent,
   ],
